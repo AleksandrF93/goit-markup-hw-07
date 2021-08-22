@@ -1,0 +1,37 @@
+/*HERO*/
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.hero__title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  color: $color-primery-bcg;
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+}
+
+.hero__overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/bgd-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
